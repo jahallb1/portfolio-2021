@@ -1,3 +1,4 @@
+import React from "react"
 import Head from "next/head"
 import stylesheet from 'styles/main.scss'
 
@@ -73,7 +74,7 @@ class IndexPage extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? "is-article-visible" : ""}`}>
                 <div>
                     <Head>
-                        <title>Next.js Starter</title>
+                        <title>Josh Hall</title>
                         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                     </Head>
 
