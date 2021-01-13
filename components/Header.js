@@ -9,10 +9,7 @@ const Header = (props) => (
           Josh Hall <br />
           Software Engineer
         </h1>
-        <p>
-          Welcome to my website <br />
-          Please have a look around!
-        </p>
+        <p>Welcome!</p>
       </div>
     </div>
     <nav>
