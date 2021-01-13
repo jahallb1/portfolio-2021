@@ -5,6 +5,8 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
 import { faLinkedin } from "@fortawesome/fontawesome-free-brands";
 
+//import resume from "../static/documents/Josh-Hall-Resume.pfd";
+
 // import tvTracker from "../static/images/tv-tracker.png";
 // import ticTacToe from "../static/images/tic-tac-toe.png";
 // import password from "../static/images/password.png";
@@ -103,18 +105,35 @@ class Main extends React.Component {
           }`}
           style={{ display: "none" }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src="/static/images/pic03.jpg" alt="" />
-          </span>
+          <h2 className="major">Resume</h2>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            <h3>Front-End</h3>
+            <ul>
+              <li>Semantic HTML</li>
+              <li>Modern CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>jQuery</li>
+              <li>Mobile-First Design</li>
+              <li>Bootstrap</li>
+            </ul>
+            <h3>Back-End</h3>
+            <ul>
+              <li>Node</li>
+              <li>Express</li>
+              <li>REST APIs</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>GraphQL</li>
+            </ul>
+          </p>
+          <p>
+            <a href="../../static/documents/Josh-Hall-Resume.pdf">
+              Click here to view/download my resume.
+            </a>
           </p>
           {close}
         </article>
