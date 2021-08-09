@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
@@ -58,40 +57,67 @@ class Main extends React.Component {
           style={{ display: "none" }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src="/static/images/tv-tracker.png" alt="" />
-          </span>
-          <p>
-            A MERN-Stack SPA for you to track your interested, currently
-            watching, and completed TV shows during quarantine.
-          </p>
-          <p>
-            <a href="https://stark-brushlands-99590.herokuapp.com/">
-              Deployed Site
-            </a>
-            <br />
-            <a href="https://github.com/Dannymont94/tv-tracker">GitHub</a>
-          </p>
-          <span className="image main">
-            <img src="/static/images/tic-tac-toe.png" alt="" />
-          </span>
-          <p>A game of tic-tac-toe built with HTML, CSS, and JavaScript.</p>
-          <p>
-            <a href="https://jahallb1.github.io/tic-tac-toe/">Deployed Site</a>
-            <br />
-            <a href="https://github.com/jahallb1/tic-tac-toe">GitHub</a>
-          </p>
-          <span className="image main">
-            <img src="/static/images/password.png" alt="" />
-          </span>
-          <p>A password generator built with HTML, CSS, and JavaScript.</p>
-          <p>
-            <a href="https://jahallb1.github.io/passwordgenerator/">
-              Deployed Site
-            </a>
-            <br />
-            <a href="https://github.com/jahallb1/passwordgenerator">GitHub</a>
-          </p>
+          <div>
+            <h3>The Local Seltzery</h3>
+            <span className="image main">
+              <img src="static/images/seltezly.png" alt="" />
+            </span>
+            <p>
+              <a href="https://thelocalseltzery.com/">Deployed Site</a>
+            </p>
+          </div>
+          <div>
+            <h3>Coach Olson</h3>
+            <span className="image main">
+              <img src="static/images/claire.png" alt="" />
+            </span>
+            <p>
+              <a href="https://www.coacholson1.com/">
+                Deployed Site
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3>TV Tracker</h3>
+            <span className="image main">
+              <img src="/static/images/tv-tracker.png" alt="" />
+            </span>
+            <p>
+              <a href="https://stark-brushlands-99590.herokuapp.com/">
+                Deployed Site
+              </a>
+              <br />
+              <a href="https://github.com/Dannymont94/tv-tracker">GitHub</a>
+            </p>
+          </div>
+          <div>
+            <h3>Tic-Tac-Toe</h3>
+            <span className="image main">
+              <img src="/static/images/tic-tac-toe.png" alt="" />
+            </span>
+            <p>A game of tic-tac-toe built with HTML, CSS, and JavaScript.</p>
+            <p>
+              <a href="https://jahallb1.github.io/tic-tac-toe/">
+                Deployed Site
+              </a>
+              <br />
+              <a href="https://github.com/jahallb1/tic-tac-toe">GitHub</a>
+            </p>
+          </div>
+          <div>
+            <h3>Passowrd Generator</h3>
+            <span className="image main">
+              <img src="/static/images/password.png" alt="" />
+            </span>
+            <p>A password generator built with HTML, CSS, and JavaScript.</p>
+            <p>
+              <a href="https://jahallb1.github.io/passwordgenerator/">
+                Deployed Site
+              </a>
+              <br />
+              <a href="https://github.com/jahallb1/passwordgenerator">GitHub</a>
+            </p>
+          </div>
 
           {close}
         </article>
