@@ -129,19 +129,30 @@ class Main extends React.Component {
           }`}
           style={{ display: "none" }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Resume</h2>
           <span className="image main">
             <img src="/static/images/pic03.jpg" alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          
+          <div>
+            <h4>Technical Skills</h4>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>React</li>
+              <li>Vue</li>
+              <li>Angular</li>
+              <li>Bootstrap</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>jQuery</li>
+              <li>REST API Calls</li>
+              <li>GitHub</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
           {close}
         </article>
 
